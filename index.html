@@ -346,53 +346,65 @@
       </section>
 
       <!-- 마이 -->
-      <section class="page" id="page-my">
-       <section class="my-profile-card">
-  <div class="profile-badge">MY PAGE</div>
+  <!-- 마이 -->
+<section class="page" id="page-my">
+  <section class="my-profile-card">
+    <div class="profile-badge">MY PAGE</div>
 
-  <div class="profile-row">
-    <div class="profile-avatar">👤</div>
+    <div class="profile-row">
+      <div class="profile-avatar">👤</div>
 
-    <div class="profile-text">
-      <h3>은비님의 Toilet Now</h3>
-      <p>빈티지 레트로 무드의 화장실 탐색 APP</p>
+      <div class="profile-text">
+        <h3>은비님의 Toilet Now</h3>
+        <p>빈티지 레트로 무드의 화장실 탐색 APP</p>
+      </div>
     </div>
-  </div>
 
-  <div class="my-stats">
-    <div class="my-stat">
-      <span>즐겨찾기</span>
-      <strong id="favCount">0</strong>
+    <div class="my-stats">
+      <div class="my-stat">
+        <span>즐겨찾기</span>
+        <strong id="favCount">0</strong>
+      </div>
+      <div class="my-stat">
+        <span>작성 리뷰</span>
+        <strong id="reviewCount">0</strong>
+      </div>
+      <div class="my-stat">
+        <span>최근 선택</span>
+        <strong id="recentToilet">-</strong>
+      </div>
     </div>
-    <div class="my-stat">
-      <span>작성 리뷰</span>
-      <strong id="reviewCount">0</strong>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h3>즐겨찾기 화장실</h3>
+      <span>favorite places</span>
     </div>
-    <div class="my-stat">
-      <span>최근 선택</span>
-      <strong id="recentToilet">-</strong>
-    </div>
-  </div>
+    <div id="favoriteList" class="card-list"></div>
+  </section>
 </section>
-</section>
-    <nav class="bottom-nav">
-      <button type="button" class="nav-item active" data-page="home">
-        <span class="nav-icon">🏠</span>
-        홈
-      </button>
-      <button type="button" class="nav-item" data-page="map">
-        <span class="nav-icon">🗺️</span>
-        지도
-      </button>
-      <button type="button" class="nav-item" data-page="review">
-        <span class="nav-icon">💬</span>
-        리뷰
-      </button>
-      <button type="button" class="nav-item" data-page="my">
-        <span class="nav-icon">👤</span>
-        마이
-      </button>
-    </nav>
+
+</div>
+
+<nav class="bottom-nav">
+  <button type="button" class="nav-item active" data-page="home">
+    <span class="nav-icon">🏠</span>
+    홈
+  </button>
+  <button type="button" class="nav-item" data-page="map">
+    <span class="nav-icon">🗺️</span>
+    지도
+  </button>
+  <button type="button" class="nav-item" data-page="review">
+    <span class="nav-icon">💬</span>
+    리뷰
+  </button>
+  <button type="button" class="nav-item" data-page="my">
+    <span class="nav-icon">👤</span>
+    마이
+  </button>
+</nav>
   </div>
 
   <div class="modal hidden" id="guideModal">
