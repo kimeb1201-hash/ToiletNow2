@@ -1097,8 +1097,8 @@ body {
 }
 
 .hero h2{
-  font-size:25px;
-  line-height:1.15;
+  font-size:30px;
+  line-height:1.25;
 }
 .ewha-logo{
   width:48px !important;
@@ -1107,4 +1107,51 @@ body {
   display:block;
   margin:0 auto 10px;
 }
+
+/* ✅ 로그인 / 회원가입 모달 추가 스타일 */
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
+
+.text-input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.88);
+  font-size: 14px;
+  color: var(--text);
+  outline: none;
+  box-sizing: border-box;
+  margin-top: 6px;
+  font-family: inherit;
+  transition: border-color 0.2s;
+}
+
+.text-input:focus {
+  border-color: var(--blue-3);
+  box-shadow: 0 0 0 3px rgba(79,150,255,0.12);
+}
+
+.auth-error {
+  background: linear-gradient(180deg, #fff5f5 0%, #ffe8e8 100%);
+  border: 1px solid rgba(255,120,120,0.3);
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #c0392b;
+  margin-bottom: 12px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+/* 마이페이지 로그아웃 버튼 */
+#myLogoutBtn {
+  color: #c0392b;
+  border-color: rgba(192,57,43,0.2);
+}
+
