@@ -4,12 +4,13 @@
 //    아래 firebaseConfig 값을 실제 값으로 교체하세요
 // =====================================================
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
+   apiKey: "AIzaSyAdUf6LmkjFMNgNtenkTeKs6sxH-sYXRBQ",
+    authDomain: "toilet-now-26b3d.firebaseapp.com",
+    projectId: "toilet-now-26b3d",
+    storageBucket: "toilet-now-26b3d.firebasestorage.app",
+    messagingSenderId: "514569501313",
+    appId: "1:514569501313:web:cca6374cf90f42262f6b80",
+    measurementId: "G-S2E085YG58"
 };
 
 firebase.initializeApp(firebaseConfig);
